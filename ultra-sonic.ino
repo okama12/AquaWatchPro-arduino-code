@@ -5,12 +5,12 @@
 #include <ArduinoJson.h>
 
 // WiFi credentials
-const char* ssid = "undercover";
-const char* password = "miriam2014";
+const char* ssid = "your_ssid";
+const char* password = "your_password";
 
 // WebSocket server address and port
-const char* serverAddress = "192.168.1.103";
-const int serverPort = 8765;
+const char* serverAddress = "your_ip_address";
+const int serverPort = your_port_number;
 
 WebSocketsClient webSocket;
 
